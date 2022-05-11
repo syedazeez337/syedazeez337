@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @syedazeez337
-- 👀 I’m interested in programming with emphasis on Web Development and Data Visualisation.
-- 🌱 I’m currently learning HTML, CSS and JavaScript.
+- 👀 I’m interested in programming with C language.
 
 <!---
 syedazeez337/syedazeez337 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
