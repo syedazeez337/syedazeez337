@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @syedazeez337
-- 👀 I’m learning C and C++
-- I am also interested in assembly and Fortran
+- 👀 I’m learning C, C++ and Scala
+- I am also interested in technologies related to Machine Learning and High Performance Computing.
 
 <!---
 syedazeez337/syedazeez337 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
