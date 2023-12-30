@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @syedazeez337
-- 👀 I’m learning C, C++, Haskell, Kotlin and Scala
+- 👀 I’m learning Python, C, Ocaml.
 - I am also interested in technologies related to Machine Learning and High Performance Computing.
 
 <!---
