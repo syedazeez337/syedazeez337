@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @syedazeez337
-- 👀 I’m learning Java, Python, C, Ocaml.
+- 👀 I’m learning Golang.
 - I am also interested in technologies related to Machine Learning and High Performance Computing.
 
 <!---
