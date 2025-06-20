@@ -1,4 +1,4 @@
-# Hi there, I'm Azeez Alishah Syed! 👋
+# Hi there, I'm Azeez! 👋
 
 ## About Me
 Passionate about cloud-native infrastructure and low-level systems, I actively contribute to open-source projects that advance the Kubernetes ecosystem. I have a hands-on, research-driven approach to systems development—exploring the Linux kernel, eBPF, and computer networking in depth.
