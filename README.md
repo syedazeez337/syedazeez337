@@ -7,7 +7,6 @@ Passionate about cloud-native infrastructure and low-level systems, I actively c
 - 🌱 I’m always learning more about the Linux kernel, eBPF, and advanced computer networking.
 - 👯 I’m looking to collaborate on open-source projects within the Kubernetes and cloud-native space.
 - 📫 How to reach me: [syedazeez337@gmail.com](mailto:syedazeez337@gmail.com)
-- 😄 Pronouns: He/Him
 
 ## My Skills
 - Go Programming Language
