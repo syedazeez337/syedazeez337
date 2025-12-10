@@ -77,24 +77,6 @@ Languages:   Go • C++ • Systems Programming
 
 `Go` `C++` `Kubernetes` `eBPF` `Cilium` `Linux` `Docker` `Git`
 
-</div>
-
----
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=syedazeez337&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true&count_private=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=syedazeez337&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true" />
-  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=syedazeez337&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true&count_private=true" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=syedazeez337&theme=github-dark-blue&hide_border=true&background=0D1117" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=syedazeez337&theme=default&hide_border=true" />
-  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=syedazeez337&theme=github-dark-blue&hide_border=true&background=0D1117" />
-</picture>
-
 ---
 
 **Open to collaboration on cloud-native and systems projects**
