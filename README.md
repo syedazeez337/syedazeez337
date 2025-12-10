@@ -1,39 +1,93 @@
-# Hi there, I'm Azeez! 👋
+<div align="center">
 
-## About Me
-Passionate about cloud-native infrastructure and low-level systems, I actively contribute to open-source projects that advance the Kubernetes ecosystem. I have a hands-on, research-driven approach to systems development—exploring the Linux kernel, eBPF, and computer networking in depth.
+# Azeez Alishah Syed
 
-- 🔭 I’m currently focusing on contributing to the Cilium project, specifically on Gateway API integration.
-- 🌱 I’m always learning more about the Linux kernel, eBPF, and advanced computer networking.
-- 👯 I’m looking to collaborate on open-source projects within the Kubernetes and cloud-native space.
-- 📫 How to reach me: [syedazeez337@gmail.com](mailto:syedazeez337@gmail.com)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=600&height=80&lines=Systems+Engineer+%7C+Open+Source+Contributor;Building+Cloud-Native+Infrastructure)](https://git.io/typing-svg)
 
-## My Skills
-- Go Programming Language
-- Cilium
-- Kubernetes
-- Linux
-- eBPF
-- Git & GitHub
-- Cloud-Native Networking & Security
+<a href="https://www.linkedin.com/in/azeez-alishah/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+<a href="https://github.com/syedazeez337"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
+<a href="mailto:syedazeez337@gmail.com"><img src="https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
 
-## My Contributions & Projects
+</div>
 
-### Cilium - Cloud Native Networking, Security & Observability
-As a contributor to the Cilium project (CNCF Incubating), I've delivered upstream patches to improve Gateway API integration, with my work now shipped in official Cilium releases—actively supporting production-grade Kubernetes networking.
+---
 
-Key Contributions:
-- Fixed Gateway reconciler failure when TLSRoute CRD is not installed ([#38874](https://github.com/cilium/cilium/pull/38874))
-- Improved parentRefMatched logic to correctly validate Gateway Group and Kind ([#39275](https://github.com/cilium/cilium/pull/39275))
-- My contributions have been included in official Cilium releases (e.g., v1.17.4, v1.18.0-pre.2, v1.18.0-pre.3). You can find more of my work on my [GitHub Profile](https://github.com/syedazeez337).
+### About
 
-### go-exhaustruct - Enhancing Developer Experience
-Contributed to improving the contributor workflow for the `go-exhaustruct` static analysis tool by designing and integrating structured GitHub Issue and Feature Request templates ([PR #117](https://github.com/GaijinEntertainment/go-exhaustruct/pull/117)). These templates streamline bug reporting and feature suggestions, fostering clearer communication and better project maintainability.
+Systems engineer specializing in **cloud-native infrastructure** and **low-level systems programming**. My code ships in production releases at **Cilium**, **CoreDNS**, and **sourcemeta/core** — used by thousands of organizations globally.
 
-## Connect with Me
-- LinkedIn: [https://www.linkedin.com/in/azeez-alishah/](https://www.linkedin.com/in/azeez-alishah/)
-- GitHub: [https://github.com/syedazeez337](https://github.com/syedazeez337)
+```
+Focus Areas: Kubernetes Networking • eBPF • DNS Infrastructure • Performance Engineering
+Languages:   Go • C++ • Systems Programming
+```
 
-<!--
-**syedazeez337/syedazeez337** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+---
+
+## Merged Contributions
+
+### <img src="https://raw.githubusercontent.com/cilium/cilium/main/Documentation/images/logo-solo.svg" width="18"/> Cilium — *CNCF Graduated*
+
+> eBPF-based Networking, Security & Observability for Kubernetes
+
+| Status | PR | Description |
+|:------:|:---|:------------|
+| ✅ | [#38874](https://github.com/cilium/cilium/pull/38874) | Fixed Gateway reconciler failure when TLSRoute CRD is missing |
+| ✅ | [#39275](https://github.com/cilium/cilium/pull/39275) | Improved parentRefMatched validation for Gateway Group/Kind |
+
+**Released in:** `v1.17.4`, `v1.18.x`
+
+---
+
+### <img src="https://coredns.io/images/CoreDNS_Colour_Horizontal.png" width="80"/> CoreDNS — *CNCF Graduated*
+
+> Flexible, extensible DNS server for cloud-native environments
+
+| Status | PR | Description |
+|:------:|:---|:------------|
+| ✅ | [#7413](https://github.com/coredns/coredns/pull/7413) | Fixed TXT record comparison logic for multi-string vs multi-record scenarios |
+| ✅ | [#7402](https://github.com/coredns/coredns/pull/7402) | Preserved SRV record case per RFC 6763 for DNS-SD/mDNS compatibility |
+
+**Impact:** Improved RFC compliance for DNS service discovery
+
+---
+
+### <img src="https://avatars.githubusercontent.com/u/88657552?s=20" width="18"/> sourcemeta/core — *JSON Schema Tooling*
+
+> High-performance C++ JSON Schema implementation
+
+| Status | PR | Description | LOC |
+|:------:|:---|:------------|:---:|
+| ✅ | [#2040](https://github.com/sourcemeta/core/pull/2040) | Replaced `unordered_map` with `bitset` for vocabulary lookups | +497 -129 |
+
+**Result:** ~3x faster vocabulary lookups, architectural refactor across 19 files
+
+---
+
+### go-exhaustruct — *Static Analysis*
+
+| Status | PR | Description |
+|:------:|:---|:------------|
+| ✅ | [#117](https://github.com/GaijinEntertainment/go-exhaustruct/pull/117) | Designed GitHub Issue & Feature Request templates |
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+`Go` `C++` `Kubernetes` `eBPF` `Cilium` `Linux` `Docker` `Git`
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=syedazeez337&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" height="150"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=syedazeez337&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" height="150"/>
+
+---
+
+**Open to collaboration on cloud-native and systems projects**
+
+</div>
