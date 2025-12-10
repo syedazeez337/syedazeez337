@@ -1,6 +1,6 @@
 <div align="center">
 
-# Azeez Alishah Syed
+# Azeez Syed
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=600&height=80&lines=Systems+Engineer+%7C+Open+Source+Contributor;Building+Cloud-Native+Infrastructure)](https://git.io/typing-svg)
 
@@ -83,9 +83,9 @@ Languages:   Go • C++ • Systems Programming
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=syedazeez337&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=syedazeez337&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true)](https://github.com/syedazeez337)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=syedazeez337&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=syedazeez337&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF)](https://github.com/syedazeez337)
 
 ---
 
