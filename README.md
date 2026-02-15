@@ -4,13 +4,15 @@
 
 **Software Engineer | Open Source Contributor**
 
-[Resume](https://syedazeez337.github.io/resume/) &#183; [LinkedIn](https://www.linkedin.com/in/azeez-alishah/) &#183; [Email](mailto:azeezalishah@gmail.com)
+19 merged PRs across 10 projects, including 3 CNCF graduated/incubating projects
+
+[![Resume](https://img.shields.io/badge/Resume-View%20%26%20Download-2563EB?style=for-the-badge)](https://syedazeez337.github.io/resume/)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/azeez-alishah/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/syedazeez337)
+[![Email](https://img.shields.io/badge/azeezalishah@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:azeezalishah@gmail.com)
 
 </div>
-
----
-
-Open source contributor with **19 merged PRs** across **10 projects**, including 3 CNCF graduated/incubating projects. Primarily working in Go and C++ on cloud-native infrastructure, Kubernetes operators, and networking protocols.
 
 ---
 
@@ -79,9 +81,28 @@ Kubernetes-native AI agent platform.
 
 ## Projects
 
-**[Purple AI Sandbox](https://github.com/syedazeez337/purple-ai-sandbox)** &mdash; Secure runtime for untrusted AI agents with multi-layer defense: eBPF packet filtering, syscall validation, and resource enforcement. `Rust` `eBPF` `Seccomp` `Tokio`
+<table>
+<tr>
+<td>
 
-**[BTE](https://github.com/syedazeez337/bte)** &mdash; Deterministic behavioral testing engine for CLI/TUI applications. Spawns real processes in a PTY, verifies behavior via declarative YAML test specs. `Rust`
+### [Purple AI Sandbox](https://github.com/syedazeez337/purple-ai-sandbox)
+
+Secure runtime for untrusted AI agents with multi-layer defense: eBPF packet filtering, syscall validation, and resource enforcement.
+
+`Rust` `eBPF` `Seccomp BPF` `Tokio` `Axum`
+
+</td>
+<td>
+
+### [BTE](https://github.com/syedazeez337/bte)
+
+Deterministic behavioral testing engine for CLI/TUI applications. Spawns real processes in a PTY, verifies behavior via YAML test specs.
+
+`Rust`
+
+</td>
+</tr>
+</table>
 
 ---
 
