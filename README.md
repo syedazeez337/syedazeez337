@@ -1,104 +1,66 @@
-<div align="center">
-
 # Azeez Syed
 
-**Systems Engineer | Open Source Contributor**
+Software engineer. Open source contributor to CNCF projects.
 
-Building secure, high-performance cloud-native infrastructure
-
-<a href="https://www.linkedin.com/in/azeez-alishah/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
-<a href="https://github.com/syedazeez337"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
-<a href="mailto:azeezalishah@gmail.com"><img src="https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
-<a href="https://syedazeez337.github.io/resume/"><img src="https://img.shields.io/badge/-Resume-4285F4?style=flat-square&logo=googledocs&logoColor=white"/></a>
-
-</div>
+[Resume](https://syedazeez337.github.io/resume/) &#183; [LinkedIn](https://www.linkedin.com/in/azeez-alishah/) &#183; azeezalishah@gmail.com
 
 ---
 
-### About
+19 merged PRs across 10 external projects. Mostly Go and C++.
 
-Systems-focused engineer with merged contributions to **CNCF graduated projects** including Cilium and CoreDNS. I work on Kubernetes networking, eBPF, DNS infrastructure, and performance optimization. My code runs in production at organizations worldwide.
+### CoreDNS *(CNCF Graduated)*
 
-```
-Languages:    Go • Rust • C++ • TypeScript • Python
-Systems:      eBPF • Seccomp BPF • Linux Namespaces • Cgroups v2
-Cloud Native: Kubernetes • Gateway API • Cilium • CoreDNS
-```
+| PR | What |
+|:---|:-----|
+| [#7402](https://github.com/coredns/coredns/pull/7402) | Fix SRV record case handling per RFC 6763 |
+| [#7413](https://github.com/coredns/coredns/pull/7413) | Fix TXT record comparison logic per RFC 1035 |
+| [#7438](https://github.com/coredns/coredns/pull/7438) | Deflake multisocket restart tests |
+| [#7798](https://github.com/coredns/coredns/pull/7798) | Harden ready/pprof/health plugins against slowloris (gosec G114) |
+| [#7799](https://github.com/coredns/coredns/pull/7799) | Fix integer overflow warnings across 26 files (gosec G115) |
 
----
+### Cilium *(CNCF Graduated)*
 
-## Open Source Contributions
+| PR | What |
+|:---|:-----|
+| [#38874](https://github.com/cilium/cilium/pull/38874) | Fix Gateway API reconciler crash when TLSRoute CRD is absent |
+| [#39275](https://github.com/cilium/cilium/pull/39275) | Fix parentRef matching to validate Group and Kind |
+| [#40272](https://github.com/cilium/cilium/pull/40272) | Add egressDeny policy docs, backported to v1.16-v1.18 |
 
-### <img src="https://raw.githubusercontent.com/cilium/cilium/main/Documentation/images/logo-solo.svg" width="18"/> Cilium — *CNCF Graduated*
+### Strimzi *(CNCF Incubating)*
 
-> eBPF-based Networking, Security & Observability for Kubernetes
+| PR | What |
+|:---|:-----|
+| [#12277](https://github.com/strimzi/strimzi-kafka-operator/pull/12277) | Separate MirrorMaker 2 metrics from Kafka Connect defaults |
+| [#12281](https://github.com/strimzi/strimzi-kafka-operator/pull/12281) | Add KafkaNodePool resource counter metric |
 
-| PR | Description |
-|:---|:------------|
-| [#38874](https://github.com/cilium/cilium/pull/38874) | Fixed Gateway API reconciler crash when TLSRoute CRD is absent |
-| [#39275](https://github.com/cilium/cilium/pull/39275) | Resolved routing misconfiguration with proper Group/Kind validation |
-| [#40272](https://github.com/cilium/cilium/pull/40272) | Authored egressDeny policy documentation, backported to v1.16-v1.18 |
+### Kamaji
 
----
+| PR | What |
+|:---|:-----|
+| [#1043](https://github.com/clastix/kamaji/pull/1043) | Add unique controller names to fix Prometheus metric conflicts |
+| [#1044](https://github.com/clastix/kamaji/pull/1044) | Remove k8s.io/apiserver dep that broke workqueue metrics |
 
-### <img src="https://coredns.io/images/CoreDNS_Colour_Horizontal.png" width="80"/> CoreDNS — *CNCF Graduated*
+### Kagent
 
-> Flexible, extensible DNS server for cloud-native environments
+| PR | What |
+|:---|:-----|
+| [#1178](https://github.com/kagent-dev/kagent/pull/1178) | Fix agent deletion ID format mismatch |
+| [#1195](https://github.com/kagent-dev/kagent/pull/1195) | Fix Helm chart for custom release names |
 
-| PR | Description |
-|:---|:------------|
-| [#7402](https://github.com/coredns/coredns/pull/7402) | Fixed SRV record case handling per RFC 6763 for mDNS/DNS-SD |
-| [#7413](https://github.com/coredns/coredns/pull/7413) | Corrected TXT record comparison logic per RFC 1035 (v1.12.3) |
-| [#7438](https://github.com/coredns/coredns/pull/7438) | Eliminated flaky multisocket tests with proper cleanup coordination |
+### Other
 
----
-
-### <img src="https://avatars.githubusercontent.com/u/88657552?s=20" width="18"/> sourcemeta/core — *JSON Schema Tooling*
-
-> High-performance C++ JSON Schema implementation
-
-| PR | Description |
-|:---|:------------|
-| [#2040](https://github.com/sourcemeta/core/pull/2040) | Replaced hash map with bitset for O(1) vocabulary lookups (+497 -129 LOC) |
-
----
-
-### Other Contributions
-
-| Project | PR | Description |
-|:--------|:---|:------------|
-| [Kagent](https://github.com/kagent-dev/kagent) | [#1178](https://github.com/kagent-dev/kagent/pull/1178) | Fixed agent deletion bug with ID format consistency |
-| [go-exhaustruct](https://github.com/GaijinEntertainment/go-exhaustruct) | [#117](https://github.com/GaijinEntertainment/go-exhaustruct/pull/117) | Designed GitHub issue templates |
+| Project | PR | What |
+|:--------|:---|:-----|
+| [Aqua Trivy](https://github.com/aquasecurity/trivy-checks) | [#514](https://github.com/aquasecurity/trivy-checks/pull/514) | Refine RBAC check to flag only critical verbs |
+| [Sourcemeta Core](https://github.com/sourcemeta/core) | [#2040](https://github.com/sourcemeta/core/pull/2040) | Replace hash map with bitset for O(1) vocabulary lookups |
+| [Fluvio](https://github.com/fluvio-community/fluvio) | [#4626](https://github.com/fluvio-community/fluvio/pull/4626) | Fix duplicate field in Topic CRD breaking ArgoCD |
+| [Yardstick](https://github.com/StacklokLabs/yardstick) | [#55](https://github.com/StacklokLabs/yardstick/pull/55) | Use MCP_TRANSPORT env var for ToolHive compat |
+| [go-exhaustruct](https://github.com/GaijinEntertainment/go-exhaustruct) | [#117](https://github.com/GaijinEntertainment/go-exhaustruct/pull/117) | Add bug report issue template |
 
 ---
 
-## Projects
+### Projects
 
-<table>
-<tr>
-<td width="50%">
+**[Purple AI Sandbox](https://github.com/syedazeez337/purple-ai-sandbox)** -- Secure runtime for untrusted AI agents. eBPF packet filtering, syscall validation, resource enforcement. `Rust`
 
-### [Purple AI Sandbox](https://github.com/syedazeez337/purple-ai-sandbox)
-Secure runtime for untrusted AI agents with multi-layer defense: eBPF packet filtering, syscall validation, and resource enforcement.
-
-`Rust` `eBPF` `Seccomp` `Tokio` `Axum`
-
-</td>
-<td width="50%">
-
-### [breveTest](https://github.com/Brevetest/core)
-Declarative API testing framework. Define REST tests via config files with automatic discovery during Maven builds.
-
-`Java` `Maven` `REST APIs`
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-**Open to collaboration on cloud-native and systems projects**
-
-</div>
+**[BTE](https://github.com/syedazeez337/bte)** -- Deterministic behavioral testing engine for CLI/TUI apps. Spawns processes in a PTY, captures output, verifies behavior via YAML test specs. `Rust`
