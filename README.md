@@ -79,33 +79,6 @@ Kubernetes-native AI agent platform.
 
 ---
 
-## Projects
-
-<table>
-<tr>
-<td>
-
-### [Purple AI Sandbox](https://github.com/syedazeez337/purple-ai-sandbox)
-
-Secure runtime for untrusted AI agents with multi-layer defense: eBPF packet filtering, syscall validation, and resource enforcement.
-
-`Rust` `eBPF` `Seccomp BPF` `Tokio` `Axum`
-
-</td>
-<td>
-
-### [BTE](https://github.com/syedazeez337/bte)
-
-Deterministic behavioral testing engine for CLI/TUI applications. Spawns real processes in a PTY, verifies behavior via YAML test specs.
-
-`Rust`
-
-</td>
-</tr>
-</table>
-
----
-
 ## Skills
 
 ```
