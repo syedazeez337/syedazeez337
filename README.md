@@ -1,95 +1,14 @@
 <div align="center">
 
-# Azeez Syed
-
-**Software Engineer | Open Source Contributor**
-
-25 merged PRs across 10 projects, including 3 CNCF graduated/incubating projects
-
-[![Resume](https://img.shields.io/badge/Resume-View%20%26%20Download-2563EB?style=for-the-badge)](https://syedazeez337.github.io/resume/)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/azeez-alishah/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/syedazeez337)
-[![Email](https://img.shields.io/badge/azeezalishah@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:azeezalishah@gmail.com)
+### Hi there 👋
 
 </div>
 
----
+I'm Azeez, a software engineer from Hyderabad contributing to open source infrastructure. Most of my work lives in the CNCF ecosystem — Cilium, CoreDNS, Strimzi, Kamaji, Kagent, and others.
 
-## Open Source Contributions
+25 merged PRs across 10 projects. Building systems tools with Go, Rust, and eBPF.
 
-### CoreDNS *(CNCF Graduated)* &mdash; 8 PRs
+🌐 **[syedazeez337.github.io/portfolio](https://syedazeez337.github.io/portfolio/)**
 
-DNS server powering service discovery in Kubernetes.
-
-| PR | Description |
-|:---|:------------|
-| [#8070](https://github.com/coredns/coredns/pull/8070) | feat(cache): add optional verify timeout to serve_stale |
-| [ci#174](https://github.com/coredns/ci/pull/174) | fix(kubernetes): look up headless_with_selector metric by label in e2e test |
-| [#7951](https://github.com/coredns/coredns/pull/7951) | fix(kubernetes): record cluster_ip services in dns_programming_duration metric |
-| [#7799](https://github.com/coredns/coredns/pull/7799) | Fix integer overflow warnings across 26 files (gosec G115) |
-| [#7798](https://github.com/coredns/coredns/pull/7798) | Harden ready/pprof/health plugins against slowloris (gosec G114) |
-| [#7438](https://github.com/coredns/coredns/pull/7438) | Deflake multisocket restart tests |
-| [#7413](https://github.com/coredns/coredns/pull/7413) | Fix TXT record comparison logic per RFC 1035 |
-| [#7402](https://github.com/coredns/coredns/pull/7402) | Fix SRV record case handling per RFC 6763 |
-
-### Cilium *(CNCF Graduated)* &mdash; 6 PRs
-
-eBPF-based networking, security, and observability for Kubernetes.
-
-| PR | Description |
-|:---|:------------|
-| [#45678](https://github.com/cilium/cilium/pull/45678) | Fix check-fmt.sh aborting with exit 123 on Go 1.26+ |
-| [#45371](https://github.com/cilium/cilium/pull/45371) | gateway-api: only create TLS passthrough listeners for TLS protocol |
-| [#44747](https://github.com/cilium/cilium/pull/44747) | loadbalancer: enforce loadBalancerSourceRanges on ExternalIPs frontends |
-| [#40272](https://github.com/cilium/cilium/pull/40272) | Add egressDeny policy docs, backported to v1.16-v1.18 |
-| [#39275](https://github.com/cilium/cilium/pull/39275) | Fix parentRef matching to validate Group and Kind |
-| [#38874](https://github.com/cilium/cilium/pull/38874) | Fix Gateway API reconciler crash when TLSRoute CRD is absent |
-
-### Strimzi *(CNCF Incubating)* &mdash; 2 PRs
-
-Kafka on Kubernetes via operators and custom resources.
-
-| PR | Description |
-|:---|:------------|
-| [#12277](https://github.com/strimzi/strimzi-kafka-operator/pull/12277) | Separate MirrorMaker 2 metrics from Kafka Connect defaults |
-| [#12281](https://github.com/strimzi/strimzi-kafka-operator/pull/12281) | Add KafkaNodePool resource counter metric |
-
-### Kamaji &mdash; 2 PRs
-
-Kubernetes control plane manager for multi-tenant clusters.
-
-| PR | Description |
-|:---|:------------|
-| [#1043](https://github.com/clastix/kamaji/pull/1043) | Add unique controller names to fix Prometheus metric conflicts |
-| [#1044](https://github.com/clastix/kamaji/pull/1044) | Remove k8s.io/apiserver dep that broke workqueue metrics |
-
-### Kagent &mdash; 2 PRs
-
-Kubernetes-native AI agent platform.
-
-| PR | Description |
-|:---|:------------|
-| [#1178](https://github.com/kagent-dev/kagent/pull/1178) | Fix agent deletion ID format mismatch |
-| [#1195](https://github.com/kagent-dev/kagent/pull/1195) | Fix Helm chart for custom release names |
-
-### Additional Contributions
-
-| Project | PR | Description |
-|:--------|:---|:------------|
-| [Aqua Trivy](https://github.com/aquasecurity/trivy-checks) | [#514](https://github.com/aquasecurity/trivy-checks/pull/514) | Refine RBAC check to flag only critical verbs |
-| [Sourcemeta Core](https://github.com/sourcemeta/core) | [#2040](https://github.com/sourcemeta/core/pull/2040) | Replace hash map with bitset for O(1) vocabulary lookups |
-| [Fluvio](https://github.com/fluvio-community/fluvio) | [#4626](https://github.com/fluvio-community/fluvio/pull/4626) | Fix duplicate field in Topic CRD breaking ArgoCD |
-| [Yardstick](https://github.com/StacklokLabs/yardstick) | [#55](https://github.com/StacklokLabs/yardstick/pull/55) | Use MCP\_TRANSPORT env var for ToolHive compat |
-| [go-exhaustruct](https://github.com/GaijinEntertainment/go-exhaustruct) | [#117](https://github.com/GaijinEntertainment/go-exhaustruct/pull/117) | Add bug report issue template |
-
----
-
-## Skills
-
-```
-Languages:     Go, C++
-Cloud Native:  Kubernetes, Cilium, CoreDNS, Gateway API, Helm, DNS Protocol
-Observability: Prometheus, Kafka/Strimzi, Grafana
-Systems:       Linux, Networking (TCP/IP, DNS), Git, GitHub Actions, Docker
-```
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/azeez-alishah/)
+[![Email](https://img.shields.io/badge/azeezalishah@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:azeezalishah@gmail.com)
