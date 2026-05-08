@@ -4,7 +4,7 @@
 
 </div>
 
-I'm Azeez, a software engineer from Hyderabad contributing to open source infrastructure. Most of my work lives in the CNCF ecosystem — Cilium, CoreDNS, Strimzi, Kamaji, Kagent, and others.
+I'm Azeez, a software engineer from Hyderabad contributing to open source infrastructure. Most of my work lives in the CNCF ecosystem: Cilium, CoreDNS, Strimzi, Kamaji, Kagent, and others.
 
 25 merged PRs across 10 projects. Building systems tools with Go, Rust, and eBPF.
 
