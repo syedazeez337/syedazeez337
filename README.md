@@ -4,7 +4,7 @@
 
 **Software Engineer | Open Source Contributor**
 
-19 merged PRs across 10 projects, including 3 CNCF graduated/incubating projects
+25 merged PRs across 10 projects, including 3 CNCF graduated/incubating projects
 
 [![Resume](https://img.shields.io/badge/Resume-View%20%26%20Download-2563EB?style=for-the-badge)](https://syedazeez337.github.io/resume/)
 
@@ -18,27 +18,33 @@
 
 ## Open Source Contributions
 
-### CoreDNS *(CNCF Graduated)* &mdash; 5 PRs
+### CoreDNS *(CNCF Graduated)* &mdash; 8 PRs
 
 DNS server powering service discovery in Kubernetes.
 
 | PR | Description |
 |:---|:------------|
-| [#7402](https://github.com/coredns/coredns/pull/7402) | Fix SRV record case handling per RFC 6763 |
-| [#7413](https://github.com/coredns/coredns/pull/7413) | Fix TXT record comparison logic per RFC 1035 |
-| [#7438](https://github.com/coredns/coredns/pull/7438) | Deflake multisocket restart tests |
-| [#7798](https://github.com/coredns/coredns/pull/7798) | Harden ready/pprof/health plugins against slowloris (gosec G114) |
+| [#8070](https://github.com/coredns/coredns/pull/8070) | feat(cache): add optional verify timeout to serve_stale |
+| [ci#174](https://github.com/coredns/ci/pull/174) | fix(kubernetes): look up headless_with_selector metric by label in e2e test |
+| [#7951](https://github.com/coredns/coredns/pull/7951) | fix(kubernetes): record cluster_ip services in dns_programming_duration metric |
 | [#7799](https://github.com/coredns/coredns/pull/7799) | Fix integer overflow warnings across 26 files (gosec G115) |
+| [#7798](https://github.com/coredns/coredns/pull/7798) | Harden ready/pprof/health plugins against slowloris (gosec G114) |
+| [#7438](https://github.com/coredns/coredns/pull/7438) | Deflake multisocket restart tests |
+| [#7413](https://github.com/coredns/coredns/pull/7413) | Fix TXT record comparison logic per RFC 1035 |
+| [#7402](https://github.com/coredns/coredns/pull/7402) | Fix SRV record case handling per RFC 6763 |
 
-### Cilium *(CNCF Graduated)* &mdash; 3 PRs
+### Cilium *(CNCF Graduated)* &mdash; 6 PRs
 
 eBPF-based networking, security, and observability for Kubernetes.
 
 | PR | Description |
 |:---|:------------|
-| [#38874](https://github.com/cilium/cilium/pull/38874) | Fix Gateway API reconciler crash when TLSRoute CRD is absent |
-| [#39275](https://github.com/cilium/cilium/pull/39275) | Fix parentRef matching to validate Group and Kind |
+| [#45678](https://github.com/cilium/cilium/pull/45678) | Fix check-fmt.sh aborting with exit 123 on Go 1.26+ |
+| [#45371](https://github.com/cilium/cilium/pull/45371) | gateway-api: only create TLS passthrough listeners for TLS protocol |
+| [#44747](https://github.com/cilium/cilium/pull/44747) | loadbalancer: enforce loadBalancerSourceRanges on ExternalIPs frontends |
 | [#40272](https://github.com/cilium/cilium/pull/40272) | Add egressDeny policy docs, backported to v1.16-v1.18 |
+| [#39275](https://github.com/cilium/cilium/pull/39275) | Fix parentRef matching to validate Group and Kind |
+| [#38874](https://github.com/cilium/cilium/pull/38874) | Fix Gateway API reconciler crash when TLSRoute CRD is absent |
 
 ### Strimzi *(CNCF Incubating)* &mdash; 2 PRs
 
